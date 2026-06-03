@@ -42,7 +42,6 @@
         <sonar.java.coveragePlugin>jacoco</sonar.java.coveragePlugin>
         <sonar.exclusions>**/config/**,**/dto/**,**/entity/**,**/mapper/**,**/security/Jwt*.java</sonar.exclusions>
         <sonar.coverage.exclusions>**/config/**,**/dto/**,**/entity/**,**/mapper/**,**/security/Jwt*.java</sonar.coverage.exclusions>
-        <sonar.newCode.referenceBranch>main</sonar.newCode.referenceBranch>
     </properties>
     <dependencies>
         <!-- Spring Boot Starters -->
